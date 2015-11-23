@@ -18,7 +18,7 @@ namespace MandelbrotAscii
 		// maximum iterations
 		static int maxIter = 256;
 
-		public static void Main (string[] args)
+		public static void Main (string[] args )
 		{
 			for (int y = 0; y < height; y++) {
 				Console.WriteLine ("");
